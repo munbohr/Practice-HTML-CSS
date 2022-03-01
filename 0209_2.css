@@ -1,0 +1,17 @@
+body {
+  height: 1000vh;
+  margin: 20px;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+}
+#green {
+  position: fixed;
+  background-color: teal;
+  opacity: 0.2;
+}
+#different {
+  background-color: wheat;
+}

@@ -1,0 +1,80 @@
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+}
+.main {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(22, 209, 209);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.circle {
+  display: flex;
+  width: 80px;
+  height: 10px;
+  justify-content: space-between;
+  align-items: center;
+  animation: circle-transition 1s ease-in-out infinite;
+  margin-bottom: 100px;
+  will-change: transform;
+}
+.circle-transition {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+@keyframes circle-transition {
+  from {
+    transform: rotateX(0);
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+.box {
+  display: flex;
+  width: 70px;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-transition {
+  background-color: white;
+  width: 10px;
+  height: 50px;
+  animation: box-transition 2s ease-in-out infinite;
+  animation-delay: 3s ease-in-out;
+}
+@keyframes box-transition {
+  0% {
+    transform: scaleY(0.6);
+  }
+  50% {
+    transform: scaleY(1.5);
+  }
+  100% {
+    transform: scaleY(0.6);
+  }
+}
+.box-transition:first-child {
+  animation-delay: 0.5s;
+}
+.box-transition:nth-child(2) {
+  animation-delay: 0.6s;
+}
+.box-transition:nth-child(3) {
+  animation-delay: 0.7s;
+}
+.box-transition:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.box-transition:last-child {
+  animation-delay: 0.9s;
+}

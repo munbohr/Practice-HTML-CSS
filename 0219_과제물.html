@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>연습용 웹</title>
+    <style>
+      body {
+        background-color: tomato;
+        height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #first {
+        background-color: wheat;
+        border: 3px solid black;
+        width: 300px;
+        height: 300px;
+      }
+
+      #third {
+        margin: 20px;
+        width: 250px;
+        height: 65px;
+        background-color: teal;
+        border: 5px dashed white;
+      }
+      .second {
+        display: flex;
+        flex-direction: space-around;
+        margin: 20px 110px;
+        width: 65px;
+        height: 65px;
+        background-color: teal;
+        border: 5px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="first">
+      <div class="second"></div>
+      <div id="third"></div>
+      <div class="second"></div>
+    </div>
+  </body>
+</html>

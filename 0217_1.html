@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <style>
+    h1 {
+      margin: 20px;
+      font-family: Georgia, serif;
+    }
+    body {
+      font-weight: 800;
+      font-family: Georgia, serif;
+    }
+    div {
+      padding: 10px;
+    }
+  </style>
+  <head>
+    <title>연습용 웹</title>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <form>
+      <div class="a">
+        <label for="first-name">First name</label>
+        <input id="first-name" required placeholder="First name" type="text" />
+      </div>
+      <div class="b">
+        <label for="last-name">Last name</label>
+        <input id="last-name" required placeholder="Last name" type="text" />
+      </div>
+      <div class="c">
+        <label for="email">Email</label>
+        <input id="email" required placeholder="Email" type="email" />
+      </div>
+      <div class="d">
+        <label for="user-name">Username</label>
+        <input id="user-name" required placeholder="Username" type="text" />
+      </div>
+      <div class="e">
+        <label for="password">Password</label>
+        <input
+          id="password"
+          required
+          placeholder="password"
+          type="password"
+          minlength="10"
+        />
+      </div>
+      <div class="f">
+        <label for="birth-date">Birth date</label>
+        <input id="birth-date" required placeholder="Birth date" type="date" />
+      </div>
+      <div class="g">
+        <label for="happiness">How happy are you?</label>
+        <input id="happiness" type="range" maxlength="11" />
+      </div>
+      <div class="h">
+        <label for="color">What is your favorite color</label>
+        <input id="color" type="color" />
+      </div>
+      <input value="Create Account" type="submit" />
+    </form>
+  </body>
+</html>

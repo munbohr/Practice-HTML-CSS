@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.stutus-bar-top {
+  display: flex;
+  justify-content: center;
+}
+.goldenrod-border {
+  width: 100px;
+  height: 100px;
+  background-color: goldenrod;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.status-btn .fa-play {
+  display: flex;
+}
+.status-btn h2 {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.goldenrod-border .fa-image {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.img-text {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.img-text h1 {
+  display: flex;
+}
+.img-text span {
+  display: flex;
+  justify-content: center;
+
+  width: 50%;
+}
+.status-btn {
+  width: 50%;
+}
+.status-column--icon:nth-child(1) {
+  width: 200px;
+  height: 70px;
+  display: flex;
+  justify-items: center;
+  background-color: white;
+  box-shadow: 5px;
+  border: 2px solid black;
+}
+.status-btn:nth-child(1) {
+  width: 200px;
+  height: 70px;
+  display: flex;
+  justify-items: center;
+  background-color: white;
+  box-shadow: 5px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.status-btn:nth-child(1) span {
+  display: flex;
+  justify-content: center;
+}
+.status-btn:nth-child(1) i {
+  display: flex;
+  justify-content: center;
+}
+.status-btn {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+.status-btn:nth-child(2) {
+  border-width: 0 4px 8px 12px;
+  width: 70px;
+  height: 70px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status-btn:nth-child(3) {
+  width: 70px;
+  height: 70px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.song-name-color {
+  display: flex;
+  align-items: center;
+}
+.song-name-color:nth-child(1) {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: tomato;
+}
+.song-name-color:nth-child(2) {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: palevioletred;
+}
+.song-name-color:nth-child(3) {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: royalblue;
+}
+.song-name-color:nth-child(4) {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: turquoise;
+}
+.contain-song-name-color {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100px;
+}

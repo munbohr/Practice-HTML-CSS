@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 100%;
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      div {
+        background-color: teal;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      div > div {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+      }
+      span {
+        font-size: 30px;
+      }
+      @media screen and (min-width: 650px) and (max-width: 750px) {
+        div {
+          background-color: tomato;
+        }
+      }
+
+      @media screen and (min-width: 600px) {
+        div > div {
+          background-color: teal;
+        }
+      }
+      @media screen and (max-width: 1200px) and (orientation: landscape) {
+        div > div {
+          background-color: tomato;
+        }
+      }
+      @media screen and (orientation: landscape) {
+        span {
+          display: none;
+        }
+      }
+      @media print {
+        body {
+          background-color: tomato;
+        }
+      }
+    </style>
+  </head>
+  <!--구역을 정해서 얼마동안 어떻게 될지 설정할 수 있음-->
+  <body>
+    <!--display:none은 그 대상을 없애준다-->
+    <span>please flip your phone :)</span>
+    <div>
+      <div></div>
+    </div>
+  </body>
+</html>
